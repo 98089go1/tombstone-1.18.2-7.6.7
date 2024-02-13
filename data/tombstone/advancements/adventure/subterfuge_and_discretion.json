@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/vanishing",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_8"
+    },
+    "title": {
+      "translate": "tombstone.advancement.subterfuge_and_discretion.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.subterfuge_and_discretion.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:shadow_step_3",
+      "tombstone:reward_knowledge_3"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:use_vanishing",
+      "conditions": {
+        "count": 10
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

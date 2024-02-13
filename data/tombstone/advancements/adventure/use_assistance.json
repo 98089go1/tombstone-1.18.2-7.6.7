@@ -1,0 +1,33 @@
+{
+  "parent": "tombstone:adventure/create_magic_tablet",
+  "display": {
+    "icon": {
+      "item": "tombstone:tablet_of_assistance"
+    },
+    "title": {
+      "translate": "tombstone.advancement.use_assistance.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.use_assistance.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_3"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:use_assistance"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

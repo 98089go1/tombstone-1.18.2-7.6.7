@@ -1,0 +1,33 @@
+{
+  "parent": "tombstone:adventure/enchant_voodoo_poppet",
+  "display": {
+    "icon": {
+      "item": "minecraft:ghast_tear"
+    },
+    "title": {
+      "translate": "tombstone.advancement.prevent_death_darkness.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.prevent_death_darkness.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:prevent_death_darkness"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

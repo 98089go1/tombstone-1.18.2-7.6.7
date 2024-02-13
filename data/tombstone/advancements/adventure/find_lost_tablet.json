@@ -1,0 +1,42 @@
+{
+  "parent": "tombstone:adventure/create_fishing_rod",
+  "display": {
+    "icon": {
+      "item": "tombstone:lost_tablet"
+    },
+    "title": {
+      "translate": "tombstone.advancement.find_lost_tablet.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.find_lost_tablet.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "has_lost_tablet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tombstone:lost_tablet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lost_tablet"
+    ]
+  ]
+}

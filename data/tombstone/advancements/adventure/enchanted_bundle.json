@@ -1,0 +1,34 @@
+{
+  "parent": "tombstone:adventure/first_grave",
+  "display": {
+    "icon": {
+      "item": "minecraft:bundle",
+      "nbt": "{enchant:1b}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.enchanted_bundle.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.enchanted_bundle.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_3"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:enchanted_bundle"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

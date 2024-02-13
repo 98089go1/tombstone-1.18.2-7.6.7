@@ -1,0 +1,34 @@
+{
+  "parent": "tombstone:adventure/impregnated_bone_needle",
+  "display": {
+    "icon": {
+      "item": "tombstone:bone_needle",
+      "nbt": "{entity_type:\"unknown\"}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.impregnated_receptacle.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.impregnated_receptacle.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:impregnated_receptacle"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

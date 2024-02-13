@@ -1,0 +1,5 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [{"item": "tombstone:dark_marble"}],
+  "result": {"item": "tombstone:dark_marble_slab", "count": 2}
+}

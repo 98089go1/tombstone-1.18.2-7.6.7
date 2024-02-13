@@ -1,0 +1,6 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [" 0 ", " 1 ", " 0 "],
+  "key": {"0": {"item": "minecraft:stone"}, "1": {"item": "tombstone:grave_dust"}},
+  "result": {"item": "tombstone:grave_plate"}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "tombstone:item/magic_scroll",
+  "textures": {
+    "layer0": "tombstone:item/ancient_magic_scroll"
+  }
+}

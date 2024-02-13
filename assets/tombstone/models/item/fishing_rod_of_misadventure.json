@@ -1,0 +1,24 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "item/fishing_rod"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cast": 0.01
+      },
+      "model": "tombstone:item/ancient_fishing_rod_of_misadventure"
+    },{
+      "predicate": {
+        "cast": 0.1
+      },
+      "model": "tombstone:item/fishing_rod_of_misadventure_cast"
+    },{
+      "predicate": {
+        "cast": 0.11
+      },
+      "model": "tombstone:item/ancient_fishing_rod_of_misadventure_cast"
+    }
+  ]
+}

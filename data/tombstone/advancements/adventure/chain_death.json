@@ -1,0 +1,35 @@
+{
+  "parent": "tombstone:adventure/first_grave",
+  "display": {
+    "icon": {
+      "item": "tombstone:decorative_grave_cross",
+      "nbt": "{model_texture:1}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.chain_death.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.chain_death.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:grave_dust",
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:chain_death"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

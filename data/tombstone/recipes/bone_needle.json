@@ -1,0 +1,5 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [{"item": "tombstone:grave_dust"}, {"tag": "forge:bones"}],
+  "result": {"item": "tombstone:bone_needle"}
+}

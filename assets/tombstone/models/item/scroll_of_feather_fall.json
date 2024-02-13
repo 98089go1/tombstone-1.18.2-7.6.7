@@ -1,0 +1,21 @@
+{
+  "parent": "item/generated",
+  "textures": {
+	"layer0": "tombstone:item/scroll",
+    "layer1": "tombstone:item/feather_fall"
+  },
+  "overrides": [
+    {
+      "predicate": {
+		"magic": 0.5
+      },
+      "model": "tombstone:item/enchanted_scroll_of_feather_fall"
+    },
+	{
+      "predicate": {
+        "magic": 1
+      },
+      "model": "tombstone:item/ancient_scroll_of_feather_fall"
+    }
+  ]
+}

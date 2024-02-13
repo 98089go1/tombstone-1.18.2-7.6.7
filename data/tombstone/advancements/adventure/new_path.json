@@ -1,0 +1,33 @@
+{
+  "parent": "tombstone:adventure/choose_knowledge",
+  "display": {
+    "icon": {
+      "item": "minecraft:knowledge_book"
+    },
+    "title": {
+      "translate": "tombstone.advancement.new_path.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.new_path.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:grave_marble"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:reset_perks"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

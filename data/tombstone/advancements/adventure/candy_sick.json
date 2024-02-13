@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/eat_lollipop",
+  "display": {
+    "icon": {
+      "item": "tombstone:lollipop",
+      "nbt": "{model_color:5s}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.candy_sick.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.candy_sick.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_10"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:eat_lollipop",
+      "conditions": {
+        "count": 50
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/create_decorative_grave",
+  "display": {
+    "icon": {
+      "item": "tombstone:strange_tablet"
+    },
+    "title": {
+      "translate": "tombstone.advancement.create_strange_tablet.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.create_strange_tablet.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_strange_tablet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tombstone:strange_tablet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_strange_tablet"
+    ]
+  ]
+}

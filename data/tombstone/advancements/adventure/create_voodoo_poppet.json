@@ -1,0 +1,42 @@
+{
+  "parent": "tombstone:adventure/create_decorative_grave",
+  "display": {
+    "icon": {
+      "item": "tombstone:voodoo_poppet"
+    },
+    "title": {
+      "translate": "tombstone.advancement.create_voodoo_poppet.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.create_voodoo_poppet.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "has_voodoo_poppet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tombstone:voodoo_poppet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_voodoo_poppet"
+    ]
+  ]
+}

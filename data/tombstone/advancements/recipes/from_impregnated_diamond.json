@@ -1,0 +1,18 @@
+{
+	"parent": "tombstone:recipes/root",
+	"rewards": {
+		"recipes": [
+			"tombstone:familiar_receptacle"
+		]
+	},
+	"criteria": {
+		"has_ingredient": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["tombstone:impregnated_diamond"]
+				}]
+			}
+		}
+	}
+}

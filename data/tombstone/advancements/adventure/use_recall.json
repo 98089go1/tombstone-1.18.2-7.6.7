@@ -1,0 +1,33 @@
+{
+  "parent": "tombstone:adventure/create_magic_tablet",
+  "display": {
+    "icon": {
+      "item": "tombstone:tablet_of_recall"
+    },
+    "title": {
+      "translate": "tombstone.advancement.use_recall.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.use_recall.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_3"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:use_recall"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "tombstone:adventure/find_grave_dust",
+  "display": {
+    "icon": {
+      "item": "tombstone:dust_of_vanishing"
+    },
+    "title": {
+      "translate": "tombstone.advancement.vanishing.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.vanishing.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:use_vanishing",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

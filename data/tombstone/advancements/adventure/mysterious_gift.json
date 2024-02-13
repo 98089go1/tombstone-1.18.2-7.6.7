@@ -1,0 +1,28 @@
+{
+  "parent": "tombstone:adventure/christmas",
+  "display": {
+    "icon": {
+      "item": "tombstone:christmas_gift"
+    },
+    "title": {
+      "translate": "tombstone.advancement.mysterious_gift.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.mysterious_gift.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:christmas_gift"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

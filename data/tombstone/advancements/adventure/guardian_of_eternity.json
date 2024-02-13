@@ -1,0 +1,38 @@
+{
+  "parent": "tombstone:adventure/servant_of_rest",
+  "display": {
+    "icon": {
+      "item": "tombstone:decorative_grave_original",
+      "nbt": "{model_texture:1}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.guardian_of_eternity.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.guardian_of_eternity.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:essence_of_undeath",
+      "tombstone:reward_knowledge_20"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:pray_on_grave",
+      "conditions": {
+        "count": 50
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

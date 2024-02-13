@@ -1,0 +1,33 @@
+{
+  "parent": "tombstone:adventure/mastery_1",
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:mastery_2"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "tombstone.advancement.mastery_2.desc"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "tombstone:impregnated_diamond"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "tombstone.advancement.mastery_2.title"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tombstone:spectral_bite_10"
+    ]
+  }
+}

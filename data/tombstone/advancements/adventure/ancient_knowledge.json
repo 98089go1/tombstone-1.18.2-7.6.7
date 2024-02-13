@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/consume_soul",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_5",
+      "nbt": "{enchant:1b}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.ancient_knowledge.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.ancient_knowledge.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_10"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:create_ancient_item",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "tombstone:adventure/mutual_aid",
+  "display": {
+    "icon": {
+      "item": "tombstone:magic_scroll",
+      "nbt": "{magic_effect:{amplifier:1b,id:\"minecraft:instant_health\"}}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.ally_enhancer.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.ally_enhancer.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:grave_marble",
+      "tombstone:reward_knowledge_3"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:cast_on_ally",
+      "conditions": {
+        "count": 10
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

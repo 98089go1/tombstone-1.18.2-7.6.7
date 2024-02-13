@@ -1,0 +1,112 @@
+{
+  "parent": "tombstone:adventure/eat_lollipop",
+  "display": {
+    "icon": {
+      "item": "tombstone:lollipop",
+      "nbt": "{model_color:1s}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.expert_tasting.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.expert_tasting.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "eat_lollipop_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "tombstone:lollipop"
+          ],
+          "nbt": "{model_color:0s}"
+        }
+      }
+    },
+    "eat_lollipop_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "tombstone:lollipop"
+          ],
+          "nbt": "{model_color:1s}"
+        }
+      }
+    },
+    "eat_lollipop_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "tombstone:lollipop"
+          ],
+          "nbt": "{model_color:2s}"
+        }
+      }
+    },
+    "eat_lollipop_3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "tombstone:lollipop"
+          ],
+          "nbt": "{model_color:3s}"
+        }
+      }
+    },
+    "eat_lollipop_4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "tombstone:lollipop"
+          ],
+          "nbt": "{model_color:4s}"
+        }
+      }
+    },
+    "eat_lollipop_5": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "tombstone:lollipop"
+          ],
+          "nbt": "{model_color:5s}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "eat_lollipop_0"
+    ],
+    [
+      "eat_lollipop_1"
+    ],
+    [
+      "eat_lollipop_2"
+    ],
+    [
+      "eat_lollipop_3"
+    ],
+    [
+      "eat_lollipop_4"
+    ],
+    [
+      "eat_lollipop_5"
+    ]
+  ]
+}

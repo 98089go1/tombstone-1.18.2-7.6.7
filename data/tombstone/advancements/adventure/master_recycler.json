@@ -1,0 +1,38 @@
+{
+  "parent": "tombstone:adventure/recycler",
+  "display": {
+    "icon": {
+      "item": "tombstone:book_of_recycling",
+      "nbt": "{enchant:1b}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.master_recycler.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.master_recycler.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:blessing_5",
+      "tombstone:reward_knowledge_10"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:use_recycling",
+      "conditions": {
+        "count": 50
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

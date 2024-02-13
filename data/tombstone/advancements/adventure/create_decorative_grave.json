@@ -1,0 +1,41 @@
+{
+  "parent": "tombstone:adventure/create_grave_marble",
+  "display": {
+    "icon": {
+      "item": "tombstone:decorative_grave_simple",
+      "nbt": "{model_texture:0}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.create_decorative_grave.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.create_decorative_grave.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "has_decorative_grave": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tombstone:decorative_graves"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_decorative_grave"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "tombstone:adventure/halloween",
+  "display": {
+    "icon": {
+      "item": "tombstone:essence_of_undeath"
+    },
+    "title": {
+      "translate": "tombstone.advancement.trade_lollipop_for_essence.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.trade_lollipop_for_essence.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_10"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:trade_lollipop_for_essence"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

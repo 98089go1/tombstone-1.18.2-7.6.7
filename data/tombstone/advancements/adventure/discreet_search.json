@@ -1,0 +1,38 @@
+{
+  "parent": "tombstone:adventure/first_grave",
+  "display": {
+    "icon": {
+      "item": "tombstone:decorative_grave_original",
+      "nbt": "{model_texture:0}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.discreet_search.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.discreet_search.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:grave_dust",
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:sneak_grave",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

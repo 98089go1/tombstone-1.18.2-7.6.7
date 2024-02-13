@@ -1,0 +1,28 @@
+{
+  "parent": "tombstone:adventure/christmas",
+  "display": {
+    "icon": {
+      "item": "tombstone:villager_gift"
+    },
+    "title": {
+      "translate": "tombstone.advancement.villager_gift.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.villager_gift.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:villager_gift"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

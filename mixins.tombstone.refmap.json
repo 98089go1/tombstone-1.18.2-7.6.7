@@ -1,0 +1,180 @@
+{
+  "mappings": {
+    "ovh/corail/tombstone/mixin/ProgramMixin": {
+      "compileShaderInternal": "Lcom/mojang/blaze3d/shaders/Program;m_166612_(Lcom/mojang/blaze3d/shaders/Program$Type;Ljava/lang/String;Ljava/io/InputStream;Ljava/lang/String;Lcom/mojang/blaze3d/preprocessor/GlslPreprocessor;)I",
+      "Lcom/mojang/blaze3d/platform/TextureUtil;readResourceAsString(Ljava/io/InputStream;)Ljava/lang/String;": "Lcom/mojang/blaze3d/platform/TextureUtil;m_85311_(Ljava/io/InputStream;)Ljava/lang/String;"
+    },
+    "ovh/corail/tombstone/mixin/LightTextureMixin": {
+      "updateLightTexture": "Lnet/minecraft/client/renderer/LightTexture;m_109881_(F)V",
+      "Lnet/minecraft/client/player/LocalPlayer;hasEffect(Lnet/minecraft/world/effect/MobEffect;)Z": "Lnet/minecraft/client/player/LocalPlayer;m_21023_(Lnet/minecraft/world/effect/MobEffect;)Z"
+    },
+    "ovh/corail/tombstone/mixin/ItemMixin": {
+      "getName": "Lnet/minecraft/world/item/Item;m_7626_(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/network/chat/Component;",
+      "isFoil": "Lnet/minecraft/world/item/Item;m_5812_(Lnet/minecraft/world/item/ItemStack;)Z"
+    },
+    "ovh/corail/tombstone/mixin/AnvilScreenMixin": {
+      "onNameChanged": "Lnet/minecraft/client/gui/screens/inventory/AnvilScreen;m_97898_(Ljava/lang/String;)V"
+    },
+    "ovh/corail/tombstone/mixin/ItemsMixin": {
+      "ifPart2": "Lnet/minecraft/world/item/Items;m_151096_(Ljava/lang/Object;)Ljava/util/Optional;"
+    },
+    "ovh/corail/tombstone/mixin/accessor/TargetGoalAccessor": {
+      "mob": "f_26135_:Lnet/minecraft/world/entity/Mob;",
+      "targetMob": "f_26137_:Lnet/minecraft/world/entity/LivingEntity;"
+    },
+    "ovh/corail/tombstone/mixin/FishingHookRendererMixin": {
+      "render": "Lnet/minecraft/client/renderer/entity/FishingHookRenderer;m_7392_(Lnet/minecraft/world/entity/projectile/FishingHook;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+    },
+    "ovh/corail/tombstone/mixin/FishingHookMixin": {
+      "shouldStopFishing": "Lnet/minecraft/world/entity/projectile/FishingHook;m_37136_(Lnet/minecraft/world/entity/player/Player;)Z"
+    },
+    "ovh/corail/tombstone/mixin/MobMixin": {
+      "isSunBurnTick": "Lnet/minecraft/world/entity/Mob;m_21527_()Z",
+      "checkDespawn": "Lnet/minecraft/world/entity/Mob;m_6043_()V",
+      "setTarget": "Lnet/minecraft/world/entity/Mob;m_6710_(Lnet/minecraft/world/entity/LivingEntity;)V",
+      "tick": "Lnet/minecraft/world/entity/Mob;m_8119_()V",
+      "canBeLeashed": "Lnet/minecraft/world/entity/Mob;m_6573_(Lnet/minecraft/world/entity/player/Player;)Z"
+    },
+    "ovh/corail/tombstone/mixin/LivingEntityRendererMixin": {
+      "render": "Lnet/minecraft/client/renderer/entity/LivingEntityRenderer;m_7392_(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+    },
+    "ovh/corail/tombstone/mixin/PlayerRendererMixin": {
+      "renderHand": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;m_117775_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/client/player/AbstractClientPlayer;Lnet/minecraft/client/model/geom/ModelPart;Lnet/minecraft/client/model/geom/ModelPart;)V"
+    },
+    "ovh/corail/tombstone/mixin/ItemStackMixin": {
+      "setRepairCost": "Lnet/minecraft/world/item/ItemStack;m_41742_(I)V"
+    },
+    "ovh/corail/tombstone/mixin/HurtByTargetGoalMixin": {
+      "alertOthers": "Lnet/minecraft/world/entity/ai/goal/target/HurtByTargetGoal;m_26047_()V"
+    },
+    "ovh/corail/tombstone/mixin/ItemInputMixin": {
+      "createItemStack": "Lnet/minecraft/commands/arguments/item/ItemInput;m_120980_(IZ)Lnet/minecraft/world/item/ItemStack;"
+    },
+    "ovh/corail/tombstone/mixin/MonsterMixin": {
+      "getWalkTargetValue": "Lnet/minecraft/world/entity/monster/Monster;m_5610_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F",
+      "isPreventingPlayerRest": "Lnet/minecraft/world/entity/monster/Monster;m_6935_(Lnet/minecraft/world/entity/player/Player;)Z"
+    },
+    "ovh/corail/tombstone/mixin/accessor/LootTableAccessor": {
+      "pools": "f_79109_:Ljava/util/List;"
+    },
+    "ovh/corail/tombstone/mixin/accessor/VillagerAccessor": {
+      "increaseMerchantCareer": "m_35528_()V"
+    },
+    "ovh/corail/tombstone/mixin/KeyboardInputMixin": {
+      "tick": "Lnet/minecraft/client/player/KeyboardInput;m_7606_(Z)V"
+    },
+    "ovh/corail/tombstone/mixin/ZombieMixin": {
+      "convertsInWater": "Lnet/minecraft/world/entity/monster/Zombie;m_7593_()Z"
+    },
+    "ovh/corail/tombstone/mixin/GameRendererMixin": {
+      "getNightVisionScale": "Lnet/minecraft/client/renderer/GameRenderer;m_109108_(Lnet/minecraft/world/entity/LivingEntity;F)F"
+    },
+    "ovh/corail/tombstone/mixin/DedicatedServerMixin": {
+      "isUnderSpawnProtection": "Lnet/minecraft/server/dedicated/DedicatedServer;m_7762_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;)Z"
+    },
+    "ovh/corail/tombstone/mixin/EntityMixin": {
+      "isAlliedTo": "Lnet/minecraft/world/entity/Entity;m_7307_(Lnet/minecraft/world/entity/Entity;)Z",
+      "isInvisibleTo": "Lnet/minecraft/world/entity/Entity;m_20177_(Lnet/minecraft/world/entity/player/Player;)Z"
+    },
+    "ovh/corail/tombstone/mixin/ServerPlayerMixin": {
+      "mayInteract": "Lnet/minecraft/server/level/ServerPlayer;m_142265_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z"
+    },
+    "ovh/corail/tombstone/mixin/LivingEntityMixin": {
+      "canAttack": "Lnet/minecraft/world/entity/LivingEntity;m_6779_(Lnet/minecraft/world/entity/LivingEntity;)Z"
+    },
+    "ovh/corail/tombstone/mixin/PotionItemMixin": {
+      "finishUsingItem": "Lnet/minecraft/world/item/PotionItem;m_5922_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;",
+      "appendHoverText": "Lnet/minecraft/world/item/PotionItem;m_7373_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "ovh/corail/tombstone/mixin/ProgramMixin": {
+        "compileShaderInternal": "Lcom/mojang/blaze3d/shaders/Program;m_166612_(Lcom/mojang/blaze3d/shaders/Program$Type;Ljava/lang/String;Ljava/io/InputStream;Ljava/lang/String;Lcom/mojang/blaze3d/preprocessor/GlslPreprocessor;)I",
+        "Lcom/mojang/blaze3d/platform/TextureUtil;readResourceAsString(Ljava/io/InputStream;)Ljava/lang/String;": "Lcom/mojang/blaze3d/platform/TextureUtil;m_85311_(Ljava/io/InputStream;)Ljava/lang/String;"
+      },
+      "ovh/corail/tombstone/mixin/LightTextureMixin": {
+        "updateLightTexture": "Lnet/minecraft/client/renderer/LightTexture;m_109881_(F)V",
+        "Lnet/minecraft/client/player/LocalPlayer;hasEffect(Lnet/minecraft/world/effect/MobEffect;)Z": "Lnet/minecraft/client/player/LocalPlayer;m_21023_(Lnet/minecraft/world/effect/MobEffect;)Z"
+      },
+      "ovh/corail/tombstone/mixin/ItemMixin": {
+        "getName": "Lnet/minecraft/world/item/Item;m_7626_(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/network/chat/Component;",
+        "isFoil": "Lnet/minecraft/world/item/Item;m_5812_(Lnet/minecraft/world/item/ItemStack;)Z"
+      },
+      "ovh/corail/tombstone/mixin/AnvilScreenMixin": {
+        "onNameChanged": "Lnet/minecraft/client/gui/screens/inventory/AnvilScreen;m_97898_(Ljava/lang/String;)V"
+      },
+      "ovh/corail/tombstone/mixin/ItemsMixin": {
+        "ifPart2": "Lnet/minecraft/world/item/Items;m_151096_(Ljava/lang/Object;)Ljava/util/Optional;"
+      },
+      "ovh/corail/tombstone/mixin/accessor/TargetGoalAccessor": {
+        "mob": "f_26135_:Lnet/minecraft/world/entity/Mob;",
+        "targetMob": "f_26137_:Lnet/minecraft/world/entity/LivingEntity;"
+      },
+      "ovh/corail/tombstone/mixin/FishingHookRendererMixin": {
+        "render": "Lnet/minecraft/client/renderer/entity/FishingHookRenderer;m_7392_(Lnet/minecraft/world/entity/projectile/FishingHook;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+      },
+      "ovh/corail/tombstone/mixin/FishingHookMixin": {
+        "shouldStopFishing": "Lnet/minecraft/world/entity/projectile/FishingHook;m_37136_(Lnet/minecraft/world/entity/player/Player;)Z"
+      },
+      "ovh/corail/tombstone/mixin/MobMixin": {
+        "isSunBurnTick": "Lnet/minecraft/world/entity/Mob;m_21527_()Z",
+        "checkDespawn": "Lnet/minecraft/world/entity/Mob;m_6043_()V",
+        "setTarget": "Lnet/minecraft/world/entity/Mob;m_6710_(Lnet/minecraft/world/entity/LivingEntity;)V",
+        "tick": "Lnet/minecraft/world/entity/Mob;m_8119_()V",
+        "canBeLeashed": "Lnet/minecraft/world/entity/Mob;m_6573_(Lnet/minecraft/world/entity/player/Player;)Z"
+      },
+      "ovh/corail/tombstone/mixin/LivingEntityRendererMixin": {
+        "render": "Lnet/minecraft/client/renderer/entity/LivingEntityRenderer;m_7392_(Lnet/minecraft/world/entity/LivingEntity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+      },
+      "ovh/corail/tombstone/mixin/PlayerRendererMixin": {
+        "renderHand": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;m_117775_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/client/player/AbstractClientPlayer;Lnet/minecraft/client/model/geom/ModelPart;Lnet/minecraft/client/model/geom/ModelPart;)V"
+      },
+      "ovh/corail/tombstone/mixin/ItemStackMixin": {
+        "setRepairCost": "Lnet/minecraft/world/item/ItemStack;m_41742_(I)V"
+      },
+      "ovh/corail/tombstone/mixin/HurtByTargetGoalMixin": {
+        "alertOthers": "Lnet/minecraft/world/entity/ai/goal/target/HurtByTargetGoal;m_26047_()V"
+      },
+      "ovh/corail/tombstone/mixin/ItemInputMixin": {
+        "createItemStack": "Lnet/minecraft/commands/arguments/item/ItemInput;m_120980_(IZ)Lnet/minecraft/world/item/ItemStack;"
+      },
+      "ovh/corail/tombstone/mixin/MonsterMixin": {
+        "getWalkTargetValue": "Lnet/minecraft/world/entity/monster/Monster;m_5610_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F",
+        "isPreventingPlayerRest": "Lnet/minecraft/world/entity/monster/Monster;m_6935_(Lnet/minecraft/world/entity/player/Player;)Z"
+      },
+      "ovh/corail/tombstone/mixin/accessor/LootTableAccessor": {
+        "pools": "f_79109_:Ljava/util/List;"
+      },
+      "ovh/corail/tombstone/mixin/accessor/VillagerAccessor": {
+        "increaseMerchantCareer": "m_35528_()V"
+      },
+      "ovh/corail/tombstone/mixin/KeyboardInputMixin": {
+        "tick": "Lnet/minecraft/client/player/KeyboardInput;m_7606_(Z)V"
+      },
+      "ovh/corail/tombstone/mixin/ZombieMixin": {
+        "convertsInWater": "Lnet/minecraft/world/entity/monster/Zombie;m_7593_()Z"
+      },
+      "ovh/corail/tombstone/mixin/GameRendererMixin": {
+        "getNightVisionScale": "Lnet/minecraft/client/renderer/GameRenderer;m_109108_(Lnet/minecraft/world/entity/LivingEntity;F)F"
+      },
+      "ovh/corail/tombstone/mixin/DedicatedServerMixin": {
+        "isUnderSpawnProtection": "Lnet/minecraft/server/dedicated/DedicatedServer;m_7762_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;)Z"
+      },
+      "ovh/corail/tombstone/mixin/EntityMixin": {
+        "isAlliedTo": "Lnet/minecraft/world/entity/Entity;m_7307_(Lnet/minecraft/world/entity/Entity;)Z",
+        "isInvisibleTo": "Lnet/minecraft/world/entity/Entity;m_20177_(Lnet/minecraft/world/entity/player/Player;)Z"
+      },
+      "ovh/corail/tombstone/mixin/ServerPlayerMixin": {
+        "mayInteract": "Lnet/minecraft/server/level/ServerPlayer;m_142265_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z"
+      },
+      "ovh/corail/tombstone/mixin/LivingEntityMixin": {
+        "canAttack": "Lnet/minecraft/world/entity/LivingEntity;m_6779_(Lnet/minecraft/world/entity/LivingEntity;)Z"
+      },
+      "ovh/corail/tombstone/mixin/PotionItemMixin": {
+        "finishUsingItem": "Lnet/minecraft/world/item/PotionItem;m_5922_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;",
+        "appendHoverText": "Lnet/minecraft/world/item/PotionItem;m_7373_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V"
+      }
+    }
+  }
+}

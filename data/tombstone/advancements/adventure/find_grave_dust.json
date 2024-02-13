@@ -1,0 +1,50 @@
+{
+  "parent": "tombstone:adventure/root",
+  "display": {
+    "icon": {
+      "item": "tombstone:grave_dust"
+    },
+    "title": {
+      "translate": "tombstone.advancement.find_grave_dust.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.find_grave_dust.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "from_undead": {
+      "trigger": "tombstone:grave_dust_from_undead",
+      "conditions": {
+        "count": 1
+      }
+    },
+    "from_cat_morning": {
+      "trigger": "tombstone:grave_dust_from_cat_morning",
+      "conditions": {
+        "count": 1
+      }
+    },
+    "from_breaking_tablet": {
+      "trigger": "tombstone:grave_dust_from_breaking_tablet",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "from_undead",
+      "from_cat_morning",
+      "from_breaking_tablet"
+    ]
+  ]
+}

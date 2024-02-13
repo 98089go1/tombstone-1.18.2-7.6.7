@@ -1,0 +1,6 @@
+{
+  "parent": "tombstone:item/scroll_of_feather_fall",
+  "textures": {
+    "layer0": "tombstone:item/ancient_magic_scroll"
+  }
+}

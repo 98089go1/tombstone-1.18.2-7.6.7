@@ -1,0 +1,38 @@
+{
+  "parent": "tombstone:adventure/exorcism",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_4",
+      "nbt": "{enchant:1b}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.master_of_exorcism.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.master_of_exorcism.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:essence_of_undeath",
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:exorcism",
+      "conditions": {
+        "count": 10
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

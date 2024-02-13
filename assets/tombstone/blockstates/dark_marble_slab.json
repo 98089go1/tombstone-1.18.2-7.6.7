@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tombstone:item/dark_marble_slab"
+    },
+    "type=double": {
+      "model": "tombstone:item/dark_marble"
+    },
+    "type=top": {
+      "model": "tombstone:block/dark_marble_slab_top"
+    }
+  }
+}

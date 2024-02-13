@@ -1,0 +1,26 @@
+{
+	"parent": "tombstone:recipes/root",
+	"rewards": {
+		"recipes": [
+			"tombstone:white_grave_simple",
+			"tombstone:white_grave_normal",
+			"tombstone:white_grave_cross",
+			"tombstone:white_tombstone",
+			"tombstone:white_subaraki_grave",
+			"tombstone:white_grave_original",
+			"tombstone:white_marble_slab",
+			"tombstone:white_marble_stairs",
+			"tombstone:white_marble_wall"
+		]
+	},
+	"criteria": {
+		"has_ingredient": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"items": ["tombstone:white_marble"]
+				}]
+			}
+		}
+	}
+}

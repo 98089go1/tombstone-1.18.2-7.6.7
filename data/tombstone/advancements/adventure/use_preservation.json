@@ -1,0 +1,33 @@
+{
+  "parent": "tombstone:adventure/create_magic_scroll",
+  "display": {
+    "icon": {
+      "item": "tombstone:scroll_of_preservation"
+    },
+    "title": {
+      "translate": "tombstone.advancement.use_preservation.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.use_preservation.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_3"
+    ]
+  },
+  "criteria": {
+    "has_magic_scroll": {
+      "trigger": "tombstone:use_preservation"
+    }
+  },
+  "requirements": [
+    [
+      "has_magic_scroll"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/ashes_and_bones",
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_rose"
+    },
+    "title": {
+      "translate": "tombstone.advancement.strong_undead.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.strong_undead.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:curse_of_bones_5",
+      "tombstone:reward_knowledge_10"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:kill_undead_boss",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

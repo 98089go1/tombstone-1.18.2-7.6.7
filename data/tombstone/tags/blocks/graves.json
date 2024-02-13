@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "#tombstone:decorative_graves",
+    "#tombstone:player_graves"
+  ]
+}

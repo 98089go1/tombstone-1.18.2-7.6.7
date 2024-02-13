@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/create_decorative_grave",
+  "display": {
+    "icon": {
+      "item": "tombstone:strange_scroll"
+    },
+    "title": {
+      "translate": "tombstone.advancement.create_strange_scroll.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.create_strange_scroll.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_strange_scroll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tombstone:strange_scroll"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_strange_scroll"
+    ]
+  ]
+}

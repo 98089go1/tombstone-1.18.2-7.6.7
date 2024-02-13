@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tombstone:item/grave_plate"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "engraved": 1
+      },
+      "model": "tombstone:item/engraved_grave_plate"
+    }
+  ]
+}

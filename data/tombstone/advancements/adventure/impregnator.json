@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/use_magic_impregnation",
+  "display": {
+    "icon": {
+      "item": "tombstone:book_of_magic_impregnation"
+    },
+    "title": {
+      "translate": "tombstone.advancement.impregnator.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.impregnator.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:blessing_3",
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:use_magic_impregnation",
+      "conditions": {
+        "count": 10
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "tombstone:decorative_tombstone",
+      "nbt": "{model_texture:0}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.tutorial.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.tutorial.desc"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "tombstone:textures/block/tombstone.png"
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "minecraft:location",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "auto"
+    ]
+  ]
+}

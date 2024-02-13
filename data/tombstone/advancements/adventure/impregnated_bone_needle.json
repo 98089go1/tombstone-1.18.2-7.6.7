@@ -1,0 +1,33 @@
+{
+  "parent": "tombstone:adventure/find_grave_dust",
+  "display": {
+    "icon": {
+      "item": "tombstone:bone_needle"
+    },
+    "title": {
+      "translate": "tombstone.advancement.impregnated_bone_needle.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.impregnated_bone_needle.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:impregnated_bone_needle"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

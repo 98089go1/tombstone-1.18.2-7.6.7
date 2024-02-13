@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "#tombstone:voodoo_poppet_ingredient_suffocation",
+	"#tombstone:voodoo_poppet_ingredient_burn",
+	"#tombstone:voodoo_poppet_ingredient_lightning",
+	"#tombstone:voodoo_poppet_ingredient_fall",
+	"#tombstone:voodoo_poppet_ingredient_cold"
+  ]
+}

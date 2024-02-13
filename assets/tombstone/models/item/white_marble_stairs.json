@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tombstone:block/white_tombstone",
+    "top": "tombstone:block/white_tombstone",
+    "side": "tombstone:block/white_tombstone"
+  }
+}

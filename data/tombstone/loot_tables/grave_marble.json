@@ -1,0 +1,1 @@
+{"pools":[{"name":"tombstone:grave_marble","rolls":1,"entries":[{"type":"item","name":"tombstone:dark_marble","weight":1,"quality":0,"functions":[{"function":"tombstone:as_gift"}]},{"type":"item","name":"tombstone:white_marble","weight":1,"quality":0,"functions":[{"function":"tombstone:as_gift"}]}]}]}

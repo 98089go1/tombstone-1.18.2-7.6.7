@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/trade_lollipop",
+  "display": {
+    "icon": {
+      "item": "tombstone:lollipop",
+      "nbt": "{model_color:3s}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.trade_10_lollipop.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.trade_10_lollipop.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:trade_lollipop",
+      "conditions": {
+        "count": 10
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

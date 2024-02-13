@@ -1,0 +1,38 @@
+{
+  "parent": "tombstone:adventure/ambush",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_axe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.fortuitous_militia.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.fortuitous_militia.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:frostbite_3",
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:killed_enough_raider",
+      "conditions": {
+        "count": 10
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

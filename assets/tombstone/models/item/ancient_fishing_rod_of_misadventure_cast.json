@@ -1,0 +1,7 @@
+{
+  "parent": "tombstone:item/ancient_fishing_rod_of_misadventure",
+  "textures": {
+    "layer0": "item/fishing_rod_cast",
+	"layer1": "tombstone:item/ancient"
+  }
+}

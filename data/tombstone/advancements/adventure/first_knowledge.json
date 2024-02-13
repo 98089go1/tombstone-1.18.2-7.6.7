@@ -1,0 +1,28 @@
+{
+  "parent": "tombstone:adventure/root",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_0"
+    },
+    "title": {
+      "translate": "tombstone.advancement.first_knowledge.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.first_knowledge.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:first_knowledge"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

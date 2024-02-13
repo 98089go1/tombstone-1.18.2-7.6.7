@@ -1,0 +1,43 @@
+{
+  "parent": "tombstone:adventure/find_grave_dust",
+  "display": {
+    "icon": {
+      "item": "tombstone:fishing_rod_of_misadventure",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.create_fishing_rod.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.create_fishing_rod.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "has_fishing_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tombstone:fishing_rod_of_misadventure"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_fishing_rod"
+    ]
+  ]
+}

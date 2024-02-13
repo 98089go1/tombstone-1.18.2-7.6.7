@@ -1,0 +1,38 @@
+{
+  "parent": "tombstone:adventure/ally_enhancer",
+  "display": {
+    "icon": {
+      "item": "tombstone:magic_scroll",
+      "nbt": "{ancient:1b,magic_effect:{amplifier:1b,id:\"minecraft:instant_health\"}}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.master_ally_enhancer.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.master_ally_enhancer.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:merchant_stone",
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:cast_on_ally",
+      "conditions": {
+        "count": 50
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

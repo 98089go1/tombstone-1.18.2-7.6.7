@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/find_grave_dust",
+  "display": {
+    "icon": {
+      "item": "tombstone:smoke_ball"
+    },
+    "title": {
+      "translate": "tombstone.advancement.create_smoke_ball.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.create_smoke_ball.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_smoke_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tombstone:smoke_ball"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_smoke_ball"
+    ]
+  ]
+}

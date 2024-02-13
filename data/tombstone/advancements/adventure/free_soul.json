@@ -1,0 +1,36 @@
+{
+  "parent": "tombstone:adventure/create_decorative_grave",
+  "display": {
+    "icon": {
+      "item": "tombstone:soul_receptacle"
+    },
+    "title": {
+      "translate": "tombstone.advancement.free_soul.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.free_soul.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:free_soul",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

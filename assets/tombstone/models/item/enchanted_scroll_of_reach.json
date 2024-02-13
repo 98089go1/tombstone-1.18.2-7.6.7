@@ -1,0 +1,7 @@
+{
+  "parent": "tombstone:item/scroll_of_reach",
+  "textures": {
+    "layer0": "tombstone:item/enchanted_magic_scroll"
+  }
+}
+

@@ -1,0 +1,57 @@
+{
+  "parent": "tombstone:adventure/first_pray",
+  "criteria": {
+    "has_wololo_black": {
+      "trigger": "tombstone:wololo_black"
+    },
+    "has_wololo_blue": {
+      "trigger": "tombstone:wololo_blue"
+    },
+    "has_wololo_green": {
+      "trigger": "tombstone:wololo_green"
+    },
+    "has_wololo_orange": {
+      "trigger": "tombstone:wololo_orange"
+    },
+    "has_wololo_white": {
+      "trigger": "tombstone:wololo_white"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "tombstone.advancement.master_wololo.desc"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:magenta_wool"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "tombstone.advancement.master_wololo.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_wololo_black"
+    ],
+    [
+      "has_wololo_blue"
+    ],
+    [
+      "has_wololo_orange"
+    ],
+    [
+      "has_wololo_white"
+    ],
+    [
+      "has_wololo_green"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_10"
+    ]
+  }
+}

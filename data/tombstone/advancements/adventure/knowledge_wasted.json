@@ -1,0 +1,33 @@
+{
+  "parent": "tombstone:adventure/consume_soul",
+  "display": {
+    "icon": {
+      "item": "minecraft:writable_book"
+    },
+    "title": {
+      "translate": "tombstone.advancement.knowledge_wasted.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.knowledge_wasted.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_2"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:knowledge_wasted"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

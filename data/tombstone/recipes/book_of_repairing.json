@@ -1,0 +1,6 @@
+{
+  "type": "tombstone:disableable_shaped",
+  "pattern": ["010", "232", "010"],
+  "key": {"0": {"item": "tombstone:grave_dust"}, "1": {"tag": "forge:gems/quartz"}, "2": {"tag": "forge:dusts/prismarine"}, "3": {"item": "book"}},
+  "result": {"item": "tombstone:book_of_repairing"}
+}

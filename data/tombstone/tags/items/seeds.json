@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:seeds",
+      "required": true
+    },
+	{
+      "id": "minecraft:cocoa_beans",
+      "required": true
+    },
+	{
+      "id": "mysticalagriculture:seeds",
+      "required": false
+    }
+  ]
+}

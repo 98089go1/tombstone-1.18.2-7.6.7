@@ -1,0 +1,38 @@
+{
+  "parent": "tombstone:adventure/root",
+  "display": {
+    "icon": {
+      "item": "tombstone:magic_scroll",
+      "nbt": "{magic_effect:{amplifier:1b,id:\"minecraft:instant_health\"}}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.mutual_aid.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.mutual_aid.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:grave_dust",
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:cast_on_ally",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

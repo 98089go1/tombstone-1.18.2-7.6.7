@@ -1,0 +1,36 @@
+{
+  "parent": "tombstone:adventure/stolen_magic",
+  "display": {
+    "icon": {
+      "item": "minecraft:lingering_potion"
+    },
+    "title": {
+      "translate": "tombstone.advancement.magic_siphoner.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.magic_siphoner.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:steal_effect",
+      "conditions": {
+        "count": 10
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

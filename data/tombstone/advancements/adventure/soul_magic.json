@@ -1,0 +1,36 @@
+{
+  "parent": "tombstone:adventure/consume_soul",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_5"
+    },
+    "title": {
+      "translate": "tombstone.advancement.soul_magic.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.soul_magic.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_2"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:consume_soul",
+      "conditions": {
+        "count": 10
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

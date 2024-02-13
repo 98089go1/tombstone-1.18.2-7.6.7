@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/halloween",
+  "display": {
+    "icon": {
+      "item": "tombstone:lollipop",
+      "nbt": "{model_color:2s}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.trade_lollipop.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.trade_lollipop.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:trade_lollipop",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

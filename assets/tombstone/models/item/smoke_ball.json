@@ -1,0 +1,6 @@
+{
+  "parent": "tombstone:item/small_generated",
+  "textures": {
+    "layer0": "minecraft:item/snowball"
+  }
+}

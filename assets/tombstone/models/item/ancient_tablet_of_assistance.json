@@ -1,0 +1,7 @@
+{
+  "parent": "tombstone:item/tablet_of_assistance",
+  "textures": {
+    "layer1": "tombstone:item/assistance",
+    "layer2": "tombstone:item/ancient"
+  }
+}

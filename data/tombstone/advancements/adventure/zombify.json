@@ -1,0 +1,36 @@
+{
+  "parent": "tombstone:adventure/first_pray",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_4"
+    },
+    "title": {
+      "translate": "tombstone.advancement.zombify.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.zombify.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_3"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:zombify",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

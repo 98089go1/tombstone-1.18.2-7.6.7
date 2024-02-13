@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/create_familiar_receptacle",
+  "display": {
+    "icon": {
+      "item": "tombstone:familiar_receptacle",
+      "nbt": "{enchant:1b}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.capture_soul.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.capture_soul.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:capture_soul",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

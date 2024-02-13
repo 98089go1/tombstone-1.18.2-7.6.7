@@ -1,0 +1,31 @@
+{
+  "parent": "tombstone:adventure/first_knowledge",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_3"
+    },
+    "title": {
+      "translate": "tombstone.advancement.first_pray.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.first_pray.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:pray_on_grave",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

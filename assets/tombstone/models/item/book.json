@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tombstone:item/book_part1",
+    "layer1": "tombstone:item/book_part2"
+  }
+}

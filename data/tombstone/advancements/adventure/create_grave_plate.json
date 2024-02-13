@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/create_decorative_grave",
+  "display": {
+    "icon": {
+      "item": "tombstone:grave_plate"
+    },
+    "title": {
+      "translate": "tombstone.advancement.create_grave_plate.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.create_grave_plate.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_grave_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tombstone:grave_plate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_grave_plate"
+    ]
+  ]
+}

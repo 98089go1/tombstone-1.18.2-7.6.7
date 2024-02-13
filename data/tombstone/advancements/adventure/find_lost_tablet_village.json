@@ -1,0 +1,34 @@
+{
+  "parent": "tombstone:adventure/find_lost_tablet",
+  "display": {
+    "icon": {
+      "item": "tombstone:lost_tablet",
+      "nbt": "{type:2s}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.find_lost_tablet_village.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.find_lost_tablet_village.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_2"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:find_lost_tablet_village"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

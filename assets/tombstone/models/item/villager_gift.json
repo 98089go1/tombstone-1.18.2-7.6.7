@@ -1,0 +1,8 @@
+{
+  "parent": "tombstone:block/gift",
+  "textures": {
+    "color1": "minecraft:block/blue_concrete",
+    "color2": "minecraft:block/yellow_concrete",
+	"lap": "tombstone:block/gift_lap"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "tombstone:adventure/fortuitous_militia",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_axe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.village_defender.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.village_defender.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:frostbite_5",
+      "tombstone:reward_knowledge_10"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:killed_enough_raider",
+      "conditions": {
+        "count": 50
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

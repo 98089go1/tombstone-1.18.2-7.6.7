@@ -1,0 +1,6 @@
+{
+  "type": "crafting_shaped",
+  "pattern": ["01", "10"],
+  "key": {"0": {"tag": "tombstone:grave_marbles"}, "1": {"item": "tombstone:grave_dust"}},
+  "result": {"item": "tombstone:strange_tablet"}
+}

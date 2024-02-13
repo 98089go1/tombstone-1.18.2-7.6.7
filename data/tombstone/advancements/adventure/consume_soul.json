@@ -1,0 +1,31 @@
+{
+  "parent": "tombstone:adventure/create_decorative_grave",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_5"
+    },
+    "title": {
+      "translate": "tombstone.advancement.consume_soul.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.consume_soul.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:consume_soul",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

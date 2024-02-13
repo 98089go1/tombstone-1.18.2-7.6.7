@@ -1,0 +1,38 @@
+{
+  "parent": "tombstone:adventure/first_pray",
+  "display": {
+    "icon": {
+      "item": "tombstone:decorative_tombstone",
+      "nbt": "{model_texture:1}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.servant_of_rest.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.servant_of_rest.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:ancient_tablet",
+      "tombstone:reward_knowledge_10"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:pray_on_grave",
+      "conditions": {
+        "count": 10
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

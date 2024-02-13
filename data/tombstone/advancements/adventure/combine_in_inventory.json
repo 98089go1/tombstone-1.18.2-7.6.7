@@ -1,0 +1,34 @@
+{
+  "parent": "tombstone:adventure/root",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_13"
+    },
+    "title": {
+      "translate": "tombstone.advancement.combine_in_inventory.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.combine_in_inventory.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:grave_dust",
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:combine_in_inventory"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: Corail Tombstone
+Specification-Vendor: Corail31
+Specification-Version: 1
+Implementation-Title: Corail Tombstone
+Implementation-Version: 7.6.7
+Implementation-Vendor: Corail31
+Implementation-Timestamp: 2024-01-24T16:42:08+0100
+MixinConfigs: tombstone.mixins.json
+

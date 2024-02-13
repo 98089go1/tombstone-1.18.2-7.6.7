@@ -1,0 +1,33 @@
+{
+  "parent": "tombstone:adventure/first_pray",
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:mastery_1"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "tombstone.advancement.mastery_1.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "tombstone:impregnated_diamond"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "tombstone.advancement.mastery_1.title"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "tombstone:familiar_stone"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_shovel",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.funeral_theft.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.funeral_theft.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_3"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:tomb_raiding",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "tombstone:adventure/first_pray",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_9"
+    },
+    "title": {
+      "translate": "tombstone.advancement.pray_of_protection.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.pray_of_protection.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:pray_of_protection",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

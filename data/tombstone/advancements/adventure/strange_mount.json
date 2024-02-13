@@ -1,0 +1,58 @@
+{
+  "parent": "tombstone:adventure/root",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_10"
+    },
+    "title": {
+      "translate": "tombstone.advancement.strange_mount.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.strange_mount.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:familiar_stone",
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "has_skeleton_receptacle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tombstone:familiar_receptacle"
+            ],
+            "nbt": "{dead_pet:{id:\"minecraft:skeleton_horse\"}}"
+          }
+        ]
+      }
+    },
+    "has_zombie_receptacle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tombstone:familiar_receptacle"
+            ],
+            "nbt": "{dead_pet:{id:\"minecraft:zombie_horse\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_skeleton_receptacle",
+      "has_zombie_receptacle"
+    ]
+  ]
+}

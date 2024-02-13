@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "tombstone:dark_marble"
+  },
+  "result": "tombstone:dark_marble_stairs",
+  "count": 1
+}

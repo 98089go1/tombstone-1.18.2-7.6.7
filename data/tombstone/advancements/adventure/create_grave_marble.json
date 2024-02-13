@@ -1,0 +1,41 @@
+{
+  "parent": "tombstone:adventure/find_grave_dust",
+  "display": {
+    "icon": {
+      "item": "tombstone:dark_marble"
+    },
+    "title": {
+      "translate": "tombstone.advancement.create_grave_marble.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.create_grave_marble.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:grave_dust",
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "has_grave_marble": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tombstone:grave_marbles"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_grave_marble"
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "tombstone:adventure/create_decorative_grave",
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "tombstone.advancement.talk_grave_guardian.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.talk_grave_guardian.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:talk_grave_guardian"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

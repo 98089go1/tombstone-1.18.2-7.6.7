@@ -1,0 +1,6 @@
+{
+  "type": "tombstone:disableable_shaped",
+  "pattern": ["010", "253", "040"],
+  "key": {"0": {"item": "tombstone:grave_dust"}, "1": {"item": "warped_fungus"}, "2": {"tag": "forge:dusts/glowstone"}, "3": {"tag": "forge:dusts/redstone"}, "4": {"item": "crimson_fungus"}, "5": {"item": "book"}},
+  "result": {"item": "tombstone:book_of_recycling"}
+}

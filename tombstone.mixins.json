@@ -1,0 +1,40 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ovh.corail.tombstone.mixin",
+  "refmap": "mixins.tombstone.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EntityMixin",
+    "FishingHookMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "MobMixin",
+    "MonsterMixin",
+    "ZombieMixin",
+    "HurtByTargetGoalMixin",
+    "ItemMixin",
+    "ItemsMixin",
+    "DedicatedServerMixin",
+    "ServerPlayerMixin",
+    "PotionItemMixin",
+    "ItemInputMixin",
+    "ForgeHooksMixin",
+    "accessor.LootTableAccessor",
+    "accessor.TargetGoalAccessor",
+    "accessor.VillagerAccessor"
+  ],
+  "client": [
+    "AnvilScreenMixin",
+    "FishingHookRendererMixin",
+    "LivingEntityRendererMixin",
+    "PlayerRendererMixin",
+    "LightTextureMixin",
+    "KeyboardInputMixin",
+    "GameRendererMixin",
+    "ProgramMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

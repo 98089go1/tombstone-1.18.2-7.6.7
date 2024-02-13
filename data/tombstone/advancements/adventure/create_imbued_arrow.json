@@ -1,0 +1,34 @@
+{
+  "parent": "tombstone:adventure/use_magic_impregnation",
+  "display": {
+    "icon": {
+      "item": "minecraft:tipped_arrow",
+      "nbt": "{CustomPotionColor:16262179,CustomPotionEffects:[{Ambient:0b,Amplifier:0b,CurativeItems:[{Count:1b,id:\"minecraft:milk_bucket\"}],Duration:1,Id:6b,ShowIcon:1b,ShowParticles:1b,\"forge:id\":\"minecraft:instant_health\"}],enchanted_arrow:1b}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.create_imbued_arrow.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.create_imbued_arrow.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_3"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:create_imbued_arrow"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

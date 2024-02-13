@@ -1,0 +1,36 @@
+{
+  "parent": "tombstone:adventure/talk_grave_guardian",
+  "display": {
+    "icon": {
+      "item": "tombstone:essence_of_undeath"
+    },
+    "title": {
+      "translate": "tombstone.advancement.trade_grave_guardian.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.trade_grave_guardian.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:trade_grave_guardian",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

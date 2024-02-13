@@ -1,0 +1,35 @@
+{
+  "parent": "tombstone:adventure/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:tropical_fish"
+    },
+    "title": {
+      "translate": "tombstone.advancement.pass_april_fool.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.pass_april_fool.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:soul_receptacle",
+      "tombstone:merchant_stone",
+      "tombstone:reward_knowledge_10"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:pass_april_fool"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

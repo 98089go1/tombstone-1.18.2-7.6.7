@@ -1,0 +1,34 @@
+{
+  "parent": "tombstone:adventure/engrave_grave_plate",
+  "display": {
+    "icon": {
+      "item": "tombstone:grave_plate",
+      "nbt": "{engraved_name:\"named\"}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.engrave_decorative_grave.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.engrave_decorative_grave.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_3"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:engrave_decorative_grave"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

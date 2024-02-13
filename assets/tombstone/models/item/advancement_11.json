@@ -1,0 +1,1 @@
+{"parent": "minecraft:block/template_hanging_lantern","textures":{"lantern":"minecraft:block/soul_lantern"},"display":{"thirdperson_lefthand":{"rotation":[90,0,0],"translation":[2,-4,0],"scale":[0.7,0.7,0.7]}}}

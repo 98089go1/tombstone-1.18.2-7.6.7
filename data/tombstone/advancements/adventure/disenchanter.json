@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/use_disenchantment",
+  "display": {
+    "icon": {
+      "item": "tombstone:book_of_disenchantment"
+    },
+    "title": {
+      "translate": "tombstone.advancement.disenchanter.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.disenchanter.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:magic_siphon_3",
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:use_disenchantment",
+      "conditions": {
+        "count": 10
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

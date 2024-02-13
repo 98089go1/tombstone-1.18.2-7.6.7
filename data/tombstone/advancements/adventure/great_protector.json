@@ -1,0 +1,38 @@
+{
+  "parent": "tombstone:adventure/pray_of_protection",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_9",
+      "nbt": "{enchant:1b}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.great_protector.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.great_protector.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:essence_of_undeath",
+      "tombstone:reward_knowledge_10"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:pray_of_protection",
+      "conditions": {
+        "count": 10
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/exorcism",
+  "display": {
+    "icon": {
+      "item": "minecraft:cat_spawn_egg"
+    },
+    "title": {
+      "translate": "tombstone.advancement.prayer_of_empathy.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.prayer_of_empathy.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:essence_of_undeath",
+      "tombstone:reward_knowledge_10"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:prayer_of_empathy",
+      "conditions": {
+        "count": 1
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

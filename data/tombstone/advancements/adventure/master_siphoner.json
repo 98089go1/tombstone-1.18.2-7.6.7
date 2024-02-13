@@ -1,0 +1,36 @@
+{
+  "parent": "tombstone:adventure/magic_siphoner",
+  "display": {
+    "icon": {
+      "item": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "tombstone.advancement.master_siphoner.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.master_siphoner.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_10"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:steal_effect",
+      "conditions": {
+        "count": 50
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

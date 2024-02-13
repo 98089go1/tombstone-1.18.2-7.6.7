@@ -1,0 +1,21 @@
+{
+  "parent": "item/generated",
+  "textures": {
+	"layer0": "tombstone:item/scroll",
+    "layer1": "tombstone:item/lightning_resistance"
+  },
+  "overrides": [
+    {
+      "predicate": {
+		"magic": 0.5
+      },
+      "model": "tombstone:item/enchanted_scroll_of_lightning_resistance"
+    },
+	{
+      "predicate": {
+        "magic": 1
+      },
+      "model": "tombstone:item/ancient_scroll_of_lightning_resistance"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "tombstone:adventure/subterfuge_and_discretion",
+  "display": {
+    "icon": {
+      "item": "tombstone:advancement_8",
+      "nbt": "{enchant:1b}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.master_of_escape.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.master_of_escape.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:shadow_step_5",
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:use_vanishing",
+      "conditions": {
+        "count": 50
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

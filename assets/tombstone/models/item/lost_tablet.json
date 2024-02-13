@@ -1,0 +1,25 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tombstone:item/lost_tablet"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "type": 0.1
+      },
+      "model": "tombstone:item/lost_tablet_exploration"
+    },{
+      "predicate": {
+        "type": 0.5
+      },
+      "model": "tombstone:item/lost_tablet_village"
+    },
+    {
+      "predicate": {
+        "type": 1.0
+      },
+      "model": "tombstone:item/lost_tablet_treasure"
+    }
+  ]
+}

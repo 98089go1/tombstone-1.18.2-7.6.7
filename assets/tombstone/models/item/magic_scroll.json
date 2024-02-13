@@ -1,0 +1,16 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tombstone:item/enchanted_magic_scroll",
+	"layer1": "tombstone:item/rune_border",
+	"layer2": "tombstone:item/rune"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "ancient": 1
+      },
+      "model": "tombstone:item/ancient_magic_scroll"
+    }
+  ]
+}

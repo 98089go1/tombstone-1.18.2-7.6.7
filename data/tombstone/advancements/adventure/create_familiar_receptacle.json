@@ -1,0 +1,42 @@
+{
+  "parent": "tombstone:adventure/find_grave_dust",
+  "display": {
+    "icon": {
+      "item": "tombstone:familiar_receptacle"
+    },
+    "title": {
+      "translate": "tombstone.advancement.create_familiar_receptacle.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.create_familiar_receptacle.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_2"
+    ]
+  },
+  "criteria": {
+    "has_familiar_receptacle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tombstone:familiar_receptacle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_familiar_receptacle"
+    ]
+  ]
+}

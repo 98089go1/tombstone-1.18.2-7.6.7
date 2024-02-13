@@ -1,0 +1,7 @@
+{
+  "parent": "tombstone:item/small_generated",
+  "textures": {
+    "layer0": "tombstone:item/grave_dust",
+    "layer1": "tombstone:item/grave_dust_tint"
+  }
+}

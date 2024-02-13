@@ -1,0 +1,24 @@
+{
+	"parent": "tombstone:recipes/root",
+	"rewards": {
+		"recipes": [
+			"tombstone:strange_scroll",
+			"tombstone:strange_tablet",
+			"tombstone:voodoo_poppet",
+			"tombstone:book_of_disenchantment",
+			"tombstone:book_of_recycling",
+			"tombstone:book_of_repairing",
+			"tombstone:book_of_magic_impregnation"
+		]
+	},
+	"criteria": {
+		"has_ingredient": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{
+					"tag": "tombstone:decorative_graves"
+				}]
+			}
+		}
+	}
+}

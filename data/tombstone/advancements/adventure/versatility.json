@@ -1,0 +1,36 @@
+{
+  "parent": "tombstone:adventure/choose_knowledge",
+  "display": {
+    "icon": {
+      "item": "minecraft:soul_lantern"
+    },
+    "title": {
+      "translate": "tombstone.advancement.versatility.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.versatility.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:reward_knowledge_1"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:selected_perks",
+      "conditions": {
+        "count": 5
+      }
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

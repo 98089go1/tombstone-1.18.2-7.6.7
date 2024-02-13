@@ -1,0 +1,37 @@
+{
+  "parent": "tombstone:adventure/strong_or_careful",
+  "display": {
+    "icon": {
+      "item": "tombstone:decorative_subaraki_grave",
+      "nbt": "{model_texture:1}"
+    },
+    "title": {
+      "translate": "tombstone.advancement.almost_unkillable.title"
+    },
+    "description": {
+      "translate": "tombstone.advancement.almost_unkillable.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "loot": [
+      "tombstone:soulbound",
+      "tombstone:soulbound",
+      "tombstone:soulbound",
+      "tombstone:reward_knowledge_5"
+    ]
+  },
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:almost_unkillable"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}
